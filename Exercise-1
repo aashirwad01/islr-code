@@ -1,0 +1,73 @@
+﻿conceptual
+1:
+a)worse as if large no of n and less p overfitting might increase (wrong )
+better as flexible methods require more datapoints to estimate parameters
+
+b)worse due to overfitting as more requirements than eqations i.e flexible methods require larger datasets 
+
+c)better as flexible methods on non-linear datasets have more degress of freedom to approximate
+d)worse as the noise is large overfitting by flexible methods which would try to follow noise more 
+
+2:
+a)Regression as salary is continous data
+it is an inference problem as we are needed to understand factors affecting salary 
+here n=500 , p=profit,no of employess ,industry , response = ceo salary
+
+b)Classification as response is categorical 
+it is prediction n=20 , p=price for product,marketing budget,competetion price and other ten...
+
+c)regression as change in excahnge rates is continous
+it is prediction problem 
+n=52 weeks
+p=US market percent change , British market percent change , percent change in german market
+
+3)
+a)
+values for curves
+
+
+
+                      irreducible error /bayes error
+                       
+
+
+
+
+
+
+
+                   increasing flexibility   ->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              
+
+
+
+
+
+b) bias is introduced when assumptions are made about curve and model function is not flexible enough f(x)-֜f(x)
+so with increasing flexibility usually bias decreases
+
+variance is indication of spread of data points and if were weret o replace some values how much are they affected . So with increase in flexibility variance increase
+
+test error is bias^2 + variance + irreducible error so always above var(e) 
+since initially bias decreases faster with flexibility than variance increases so test error decreases but after some time it starts increasing 
+
+training error with increasing flexibility the model function almost mimics the data points thus entirely reducing error
+
+
+
+5)
+
